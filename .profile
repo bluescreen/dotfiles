@@ -35,3 +35,7 @@ alias work="tmux a -t work"
 alias ctags="`brew --prefix`/bin/ctags"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# defaults write -g KeyRepeat -int 1
+# defaults write -g InitialKeyRepeat -int 10
+# defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false

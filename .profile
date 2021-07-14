@@ -26,7 +26,8 @@ export FZF_DEFAULT_OPTS='--no-height --border --preview="cat {}" --color=bg+:#34
 
 export GOPATH=$HOME/gocode
 alias rsd="brew services restart spotifyd"
-alias v="vim"
+alias vim="nvim"
+alias v="nvim"
 alias play='f() {mpv "https://www.youtube.com/watch?list=$1" --volume="50" --no-video --ontop --shuffle};f'
 alias spotify='brew services restart spotifyd; spt'
 alias tmux="tmux -2"

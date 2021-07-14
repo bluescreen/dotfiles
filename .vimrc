@@ -117,10 +117,10 @@ Plug 'fatih/vim-go'
 
 if has('nvim')
     " LSP
-    " Plug 'neovim/nvim-lspconfig'
+    Plug 'neovim/nvim-lspconfig'
     " Plug 'glepnir/lspsaga.nvim'
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Plug 'hrsh7th/nvim-compe'
+    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'hrsh7th/nvim-compe'
 
     Plug 'ThePrimeagen/harpoon'
     Plug 'kyazdani42/nvim-web-devicons'

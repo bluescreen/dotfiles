@@ -5,7 +5,6 @@ source ~/.vimrc
 
 
 lua << EOF
---[[
 
 require'lspconfig'.tsserver.setup{}
 local nvim_lsp = require('lspconfig')
@@ -43,11 +42,9 @@ for _, lsp in ipairs(servers) do
     on_attach = on_attach,
     flags = {
       debounce_text_changes = 150,
-
     }
   }
 end
-]]--
 
 local actions = require('telescope.actions')
 require('telescope').setup {
